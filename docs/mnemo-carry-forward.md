@@ -2,15 +2,7 @@
 
 ## Purpose
 
-This document is orthogonal to `exploration-summary.md`. That doc captures *what* memory-kit is. This doc captures *why* memory-kit exists as an R&D vehicle for Mnemo, and *how* its outputs flow forward into Mnemo's production memory layer.
-
-## Stance
-
-This project values **learning over shipping**. When the two are in tension — when there's a shortcut that would produce working code but weaker R&D yield — **learning wins**. The output of memory-kit is not a notes app; it's a set of validated patterns, measured findings, and a drop-in memory service that Mnemo can consume.
-
-"Does the code run?" is necessary but not sufficient. *"Did we learn what we came to learn?"* is the real definition of done, as formalized in the Success Criteria section below.
-
-If this stance ever shifts (e.g., the project pivots toward product delivery), both `exploration-summary.md` and this document must be revisited before implementation continues.
+This document is orthogonal to `exploration-summary.md`. That doc captures *what* memory-kit is. This doc captures *how* memory-kit connects to Mnemo — what the project contributes to Mnemo's eventual memory layer, and how its outputs flow forward.
 
 ## Core Hypothesis
 

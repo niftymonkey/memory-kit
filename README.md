@@ -1,20 +1,16 @@
 # memory-kit
 
-Voice-first memory capture with natural-language recall. R&D toward **Mnemo** — a private AI assistant with long-term memory.
+Voice-first memory capture with natural-language recall. Built for daily personal use, architected so its patterns transfer into **Mnemo** — a private AI assistant with long-term memory.
 
 ## What it is
 
 A containerized memory service (`notes-api`) plus a dogfood web UI (`web-ui`). Record voice or text notes; an LLM extracts structured meaning (events, commitments, preferences, mentions); everything is stored in Postgres + pgvector. A chat UI lets you interrogate your own memory in natural language — *"who fixed the plumbing?"*, *"what's happening next weekend?"*, *"do any commitments conflict with me going skiing this Saturday?"*
 
-The memory service is the product. The web UI is a dogfood surface. Both are built to validate patterns that will later drop into `mnemo`.
+The memory service is the portable piece — designed to drop into Mnemo later. The web UI is the app for daily use.
 
 ## Status
 
-Early R&D. Planning docs in place; no code yet.
-
-## Stance
-
-**Learning over shipping.** The output is not a notes app — it's validated patterns, measured findings, and a memory service that drops into Mnemo.
+Early — planning docs in place; no code yet.
 
 ## Design in brief
 

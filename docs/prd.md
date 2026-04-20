@@ -6,7 +6,7 @@ I continuously encounter moments in daily life where useful information needs ca
 
 I want a voice-first capture tool that remembers these fragments and lets me interrogate my own memory in natural language. And I want to build it as R&D — one that validates the memory-layer patterns that will eventually power **Mnemo**, a private AI assistant with long-term memory.
 
-Full context: `docs/exploration-summary.md` and `docs/mnemo-carry-forward.md` (the latter is load-bearing; its stance — *learning over shipping* — is an implicit requirement on every implementation decision below).
+Full context: `docs/exploration-summary.md` and `docs/mnemo-carry-forward.md`. The latter's design principles and non-goals are implicit requirements on every implementation decision below.
 
 ## Solution
 
@@ -208,7 +208,7 @@ This PRD sits on top of two load-bearing docs in the same repository:
 - `docs/exploration-summary.md` — decisions locked from the explore-idea session. *What* to build.
 - `docs/mnemo-carry-forward.md` — *why* the project exists, what must be measured, what must not be built. Guardrails.
 
-The PRD is **derived from both**. It must be read alongside them, not as a standalone spec. Non-goals are lifted from the carry-forward doc; design principles from the carry-forward doc are implicit requirements on every implementation decision here. The carry-forward stance — *learning over shipping* — applies: when tension arises between shipping fast and producing measurable R&D yield, R&D yield wins.
+The PRD is **derived from both**. It must be read alongside them, not as a standalone spec. Non-goals are lifted from the carry-forward doc; design principles from the carry-forward doc are implicit requirements on every implementation decision here.
 
 When a major decision in this PRD is revisited (for example, deciding to build canonical entity resolution after all), both `exploration-summary.md` and `mnemo-carry-forward.md` are revisited in the same pass. The three documents stay synchronized or they are all considered stale.
 

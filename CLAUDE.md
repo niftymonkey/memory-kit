@@ -1,10 +1,6 @@
 # memory-kit
 
-R&D vehicle for Mnemo's memory layer. Voice-first note capture + chat-style natural-language interrogation, built to prove patterns that drop into Mnemo later.
-
-## Stance
-
-**Learning over shipping.** If a shortcut produces working code but weaker R&D yield, learning wins. The output is not a notes app — it's validated patterns, measured findings, and a drop-in memory service for Mnemo.
+Voice-first note capture + chat-style natural-language interrogation. A personal memory tool built for daily use, architected so its patterns transfer into Mnemo (a private AI assistant with long-term memory).
 
 ## Hard Rules (non-negotiable)
 
@@ -45,7 +41,7 @@ Don't preload all three planning docs. Pull them into context when the task touc
 
 ## Project Defaults
 
-pnpm monorepo · Docker Compose · TypeScript strict · Postgres + pgvector + Drizzle · Vercel AI SDK against an OpenAI-compatible base URL · cloud Whisper (review-kit pattern; no audio retained) · Vitest (unit + integration + contract) · Evalite (LLM behavior) · `@niftymonkey/ai-toolkit` for model catalog.
+pnpm monorepo · Docker Compose · TypeScript strict · Postgres + pgvector + Drizzle · Vercel AI SDK against an OpenAI-compatible base URL · cloud Whisper (review-kit pattern; no audio retained) · Vitest (unit + integration + contract) · Evalite (LLM behavior) · `@niftymonkey/pickai` for choosing and working with models.
 
 ## Testing (TDD)
 
